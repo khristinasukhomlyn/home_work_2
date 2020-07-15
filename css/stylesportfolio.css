@@ -27,8 +27,17 @@
 }
 
 button {
-  background-color: #2196f3;
+  background-color: #f5f4fa;
 }
 .button-text {
+  color: #212121;
+}
+button:hover,
+button:focus {
+  background-color: #2196f3;
+}
+.button-text:hover,
+.button-text:focus,
+.button-text:active {
   color: #ffffff;
 }

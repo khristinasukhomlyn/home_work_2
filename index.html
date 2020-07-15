@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Web studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -13,16 +14,22 @@
       <a lang="en">Web Studio</a>
       <nav>
         <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="#" class="studio">Студия</a></li>
+          <li><a href="./portfolio.html" class="portfolio">Портфолио</a></li>
+          <li><a href="#" class="contacts">Контакты</a></li>
         </ul>
       </nav>
       <section>
         <address>
           <ul>
-            <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li>
+              <a href="info@devstudio.com" class="e-mail">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="telephone-number"
+                >+38 096 111 11 11</a
+              >
+            </li>
           </ul>
         </address>
       </section>
@@ -32,7 +39,9 @@
       <section>
         <img src="#" alt="Командная работа" />
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <button type="button">
+          <span class="button-text">Заказать услугу</span>
+        </button>
       </section>
       <!-- Преимущества> -->
       <section>
@@ -394,7 +403,9 @@
         <div>
           <b>Подпишитесь на рассылку</b>
           <img src="#" alt="галка" />
-          <button>Подписаться</button>
+          <button type="button">
+            <span class="button-text">Подписаться</span>
+          </button>
         </div>
       </div>
     </footer>
