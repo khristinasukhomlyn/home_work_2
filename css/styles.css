@@ -1,3 +1,14 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+
 .studio:focus,
 .studio:hover,
 .studio:active {
